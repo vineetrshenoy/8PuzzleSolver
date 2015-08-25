@@ -35,6 +35,6 @@ Once the board was implemented, the Solver was implemented. This used priority q
     public static void main(String[] args) // solve a slider puzzle 
     }
     
-
+A min priority queue was used to find the 8-Puzzle with the lowest priority, guaranteeing that the 8 puzzle was solved in the minimum number of steps (if solvable). To detect if a puzzle was solvable, two adjacent tiles in the same row were swapped, and the original board and swapped board were solved simultaneously. If the original board is solved first, then there is a solution. If the twin board is solved first, then the original has no solution.
 
 This project was completed on August 4th, 2015
